@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.alersphere" />
+                  <option name="mobileSdkAppId" value="1:475493455666:android:76dd9dc37d8ac29eb0292b" />
+                  <option name="projectId" value="alertsphere-ea83b" />
+                  <option name="projectNumber" value="475493455666" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -1,8 +1,10 @@
 plugins {
+    id("com.google.gms.google-services")
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
+
 
 android {
     namespace = "com.alersphere"
@@ -52,6 +54,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.auth)
 
     // Testing libraries
     testImplementation(libs.junit)
@@ -65,4 +69,8 @@ dependencies {
     // Debugging libraries for Jetpack Compose
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.supabase.kt)
+    implementation(libs.retrofit2.retrofit)
+    implementation(libs.converter.gson)
 }

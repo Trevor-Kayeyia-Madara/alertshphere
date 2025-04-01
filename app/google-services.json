@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475493455666",
+    "project_id": "alertsphere-ea83b",
+    "storage_bucket": "alertsphere-ea83b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475493455666:android:76dd9dc37d8ac29eb0292b",
+        "android_client_info": {
+          "package_name": "com.alersphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtZwYCO9xK6SKm5EurEtt2dU67_05aAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
