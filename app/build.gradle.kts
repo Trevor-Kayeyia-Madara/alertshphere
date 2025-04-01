@@ -73,4 +73,9 @@ dependencies {
     implementation(libs.supabase.kt)
     implementation(libs.retrofit2.retrofit)
     implementation(libs.converter.gson)
+
+    implementation(libs.supabase.kt.v300) // Replace with latest version
+    implementation(libs.kotlinx.coroutines.android) // For async operations
+    implementation(libs.retrofit2.retrofit) // API requests (optional)
+    implementation(libs.converter.gson) // JSON parsing
 }
